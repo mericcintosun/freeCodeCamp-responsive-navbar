@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+.container {
+    background: #F8F8F8;
+    max-width: 95%;
+    width: 95%;
+    text-align: center;
+}
+header {
+    margin: 0 auto;
+    max-width: 95%;
+    width: 95%;
+    background: #F8F8F8;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Lora';
+    font-size: 3.375rem;
+    color:#143774;
+}
+h5 {
+    font-family:'Ubuntu';
+    font: bold;
+    font-size:1rem;
+    color: #1792D2;
+    margin-top: -50px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    padding: 40px;
+}
+ul li a {
+    text-decoration: none;
+    color: #707070;
+    font-family:'ubuntu';
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+ul li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.125rem;
+}
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+span {
+    color:#B7832F;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color:#707070;
+    align-items: center;
+}
+.col-p {
+    background-color: #312614;
+    color: white;
+}
+.col-3 {
+    width: 24%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-9 {
+    width:75%;
+}
+.col {
+    text-align: left;
+    padding: 0 0 0 10px;
+}
